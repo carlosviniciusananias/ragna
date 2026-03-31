@@ -1,0 +1,30 @@
+{
+  "name": "ragna",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Carlos Vinicius Ananias",
+  "description": "",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.1",
+    "@xenova/transformers": "^2.17.2",
+    "dotenv": "^17.3.1",
+    "pg": "^8.14.1",
+    "openai": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.7.2"
+  }
+}
